@@ -514,7 +514,11 @@ textarea:focus~span{
     .hero-title {
         font-size: 4vh;
     }
-
+    .hero-title h1{
+        margin-left: -2vw;
+        margin-top: 10vh;
+        font-size: 7vw;
+    }
     .hero-title2 {
         font-size: 2vh;
     }
@@ -583,5 +587,82 @@ textarea:focus~span{
     .comment-line4 p{
         font-size: 1.3vh;
         padding-inline: 1vh;
+    }
+    .page5{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .contact-info{
+        width: 100%;
+        height: 40vh;
+        margin-top: 0;
+    }
+    .contact{
+        width: fit-content;
+    }
+    .contact-details{
+        width: 20vw;
+        margin: 0vh;
+    }
+    .contact-details p{
+        font-size: 2vw;
+    }
+    .contact-icon i{
+        font-size: 4.5vw;
+    }
+    .contact-icon{
+        width: 11vw;
+        height: 7vh;
+        flex-direction: column;
+        margin-right: 2vw;
+    }
+    .contact-form{
+        width: 50%;
+        height: 40%;
+        justify-content: center;
+        align-items: center;
+    }
+    .lineone{
+        margin-top: 0;
+    }
+    .info-line{
+        margin-top : 4vh;
+        margin-left: 0;
+        padding-right: 0;
+    }
+    .input-box input{
+        margin-top: 0;
+        height: 6vh;
+    }
+    .input-box span{
+        font-size: 4vw;
+        margin-top: 0;
+    }
+    .input-box3 span{
+        margin-top: 0;
+    }
+    textarea{
+        height: 5vh;
+    }
+    input:focus~span{
+        font-size:2vw ;
+    }
+    textarea:focus~span{
+        font-size:2vw;
+    }
+    .contact-form input,button,textarea{
+        margin-top: 4vh;
+        height: 4vh;
+        width: 60vw;
+        font-size: 3vw;
+    }
+    .contact-heading{
+        font-size: 7vw;
+    }
+    .contact-details{
+        font-size: 4vw;
+    }
+    .contact-details p{
+        font-size: 3vw;
     }
 }
