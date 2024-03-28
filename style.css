@@ -13,6 +13,20 @@ body {
     background-color: black;
     color: white;
 }
+.loder{
+    position: fixed;
+    z-index: 99;
+    height: 100vh;
+    width: 100vw;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+}
+.loder img{
+    width: 20%;
+}
 .hero {
     background-image: url("assets/indexpicture\ \(1\).webp");
     background-size: cover;
@@ -561,7 +575,7 @@ textarea:focus~span{
     }
     .count-box{
         flex-wrap: wrap;
-        font-size:1.7vh;
+        font-size:1.3vh;
         width: fit-content;
     }
     .comment{
@@ -664,5 +678,8 @@ textarea:focus~span{
     }
     .contact-details p{
         font-size: 3vw;
+    }
+    .loder img{
+        width: 50%;
     }
 }
