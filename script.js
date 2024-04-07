@@ -1,4 +1,12 @@
 document.addEventListener("DOMContentLoaded", function () {
+    var loder = document.querySelector("#loder");
+
+    window.addEventListener("load", function () {
+        loder.style.display = "none";
+        Animation();
+    });
+})
+function Animation(){
     let tl = gsap.timeline();
     tl.from(".hero-text .hero-title h1 .w1,.w2,.w3,.w4,.w5,.w6,.w7 ", {
         y: -100,
@@ -18,9 +26,4 @@ document.addEventListener("DOMContentLoaded", function () {
             scroller: "body",
         }
     })
-    var loder = document.getElementById("loder");
-
-    window.addEventListener("load", function () {
-        loder.style.display = "none";
-    });
-})
+}
